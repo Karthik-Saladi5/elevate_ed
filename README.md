@@ -41,19 +41,19 @@ The primary objective of **Elevate-Ed** is to empower learners by:
 
 ```
 /
+├── TextSummarizer/
+│ ├── Templates/
+│ │ ├── index.html
+│ ├── static/
+│ │ ├── css/
+│ │ │ ├── styles.css
+│ │ └── script/
+│ │   └── script.js
+│ ├── app.py
+│ ├── package-lock.json
+│ ├── requirements.txt
+│ └── tempCodeRunnerFile.py
 ├── Dashboard/
-│ ├── TextSummarizer-master/
-│ │ ├── Templates/
-│ │ │ ├── index.html
-│ │ ├── static/
-│ │ │ ├── css/
-│ │ │ │ ├── styles.css
-│ │ │ └── script/
-│ │ │ └── script.js
-│ │ ├── app.py
-│ │ ├── package-lock.json
-│ │ ├── requirements.txt
-│ │ └── tempCodeRunnerFile.py
 │ ├── uploads/
 │ │ ├── 2_1738258894.png
 │ │ ├── 2_1738258917.png
@@ -105,6 +105,7 @@ The primary objective of **Elevate-Ed** is to empower learners by:
 ├── signin.html
 ├── signup.html
 └── README.md
+
 ```
 
 </details>
@@ -185,7 +186,7 @@ Transform your learning into career success with industry-recognized certificati
    CREATE DATABASE elevate_ed;
    USE DATABASE elevate_ed;
    ```
-   and import the elevate_ed.sql file to create the required tables.
+   and import the **elevate_ed.sql** file to create the required tables.
 ## How to Run the Application
 
 - Run Backend
